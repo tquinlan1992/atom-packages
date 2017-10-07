@@ -1,0 +1,90 @@
+'.source.js':
+    'angular-module':
+        'prefix': 'angular-app'
+        'body': """
+        const angular = require("angular");
+
+        const app = angular.module("${1}", [
+        ]);
+
+        module.exports = "${1}";
+        """
+
+    'angular-app-component':
+        'prefix': 'angular-app-component'
+        'body': """
+        const app = angular.module("${1}", [
+        ]);
+
+        app.controller("${1}Controller", () => {
+        });
+
+        app.directive("${1}Directive", () => {
+            return {
+                scope: {},
+                templateUrl: '/index.html',
+                controller: function () {
+                }
+            };
+        });
+
+        app.component("${1}Component", {
+                bindings: {
+                },
+                template: '<div></div>',
+                controller: function () {
+
+                }
+        });
+
+        app.filter("${1}Filter", () => {
+            return (input, option1) => {
+                return input + option1;
+            };
+        });
+        """
+
+    'angular-controller':
+        'prefix': 'angular-controller'
+        'body': """
+        app.controller("${1}", () => {
+        });
+        """
+
+    'angular-directive':
+        'prefix': 'angular-directive'
+        'body': """
+        app.directive("${1}", () => {
+            return {
+                scope: {
+                },
+                template: '/index.html',
+                controller: function () {
+                }
+            };
+        });
+        """
+
+    'angular-component':
+        'prefix': 'angular-component'
+        'body': """
+        app.component("${1}", {
+                bindings: {
+                    message: '='
+                },
+                template: '<div></div>',
+                controller: function () {
+                    this.message = 'Thomas directive';
+                }
+        });
+        """
+
+    'angular-filter':
+        'prefix': 'angular-filter'
+        'body': """
+        app.filter("${1}", () => {
+            return (input, option1) => {
+                return input + option1;
+            };
+        });
+        """
