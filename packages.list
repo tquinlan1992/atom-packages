@@ -8,7 +8,6 @@ atom-material-syntax
 atom-quoter
 atom-save-all
 atom-ternjs
-atom-toolbar
 atom-typescript
 auto-reveal-in-sidebar
 autocomplete-angular-material
@@ -18,6 +17,7 @@ clipboard-plus
 color-picker
 es6-javascript
 file-icons
+flex-tool-bar
 genesis-ui
 git-blame
 git-history
@@ -48,6 +48,7 @@ seti-ui
 simple-drag-drop-text
 symbols-tree-view
 tabs-closer
+tool-bar
 tree-ignore
 tree-view-git-status
 turbo-javascript
