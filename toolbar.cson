@@ -17,13 +17,13 @@
     icon: "angle-left"
     iconset: "fa"
     tooltip: "Go to last edit"
-    callback: "goto-last-edit:back"
+    callback: "goto-last-edit:back (ctrl+i)"
   }
  {
     type: "button"
     icon: "angle-right"
     iconset: "fa"
     tooltip: "Go to next edit"
-    callback: "goto-last-edit:forward"
+    callback: "goto-last-edit:forward (ctrl+alt+i)"
   }
 ]
