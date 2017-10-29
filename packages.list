@@ -1,5 +1,4 @@
 advanced-open-file
-aligner
 aligner-javascript
 an-old-hope-syntax
 atom-beautify
@@ -12,6 +11,7 @@ atom-typescript
 auto-reveal-in-sidebar
 autocomplete-angular-material
 autocomplete-modules
+browser-plus
 busy-signal
 clipboard-plus
 color-picker
@@ -33,9 +33,11 @@ intentions
 js-refactor
 jshint
 linter
+linter-eslint
 linter-shellcheck
 linter-tslint
 linter-ui-default
+markdown-preview-plus
 merge-conflicts
 modular-snippets
 native-ui
