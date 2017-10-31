@@ -4,7 +4,7 @@
 Copy this repository to your `./atom` directory
 
 Recommended way to copy repository to your `./atom`:
-1. `cd <path to ./atom>`
+1. `cd <path to /.atom>`. Its mostly found in '~/.atom'
 2. `git init`
     - delete .git directory if necessary
 3. `git remote add origin https://github.com/tquinlan1992/atom-packages.git`
